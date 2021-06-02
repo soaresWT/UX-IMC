@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Saude-IMC</title>
+ 
+    
+</head>
+<body>
+    <div id="painei">
+        <h1 id="titulo">Sobre um estilo de vida <br> Ativo e saudável</h1>
+        <img src="img/ilus.svg" alt="exercite-se" id="mag">
+        
+  
+    </div>
+    <div class="container">
+        <div id="calc">
+            <h2 style="text-align: center;" >Calcule seu IMC</h2>
+            <p id="para"> IMC significa Índice de Massa Corporal e trata-se de uma medida do peso de cada pessoa,
+               sendo uma relação entre a massa da pessoa e a sua altura ao quadrado. A partir desse cálculo 
+               é possível avaliar se a pessoa está com um peso ideal ou se está abaixo ou acima do peso.</p>
+            <input type="text" class="dados" id="peso" placeholder="Seu Peso em Kg">
+            <input type="text" class="dados" id="altura" placeholder="Sua altura em Metros">
+            <input type="button" id="cal" class="dados" value="Calcular" onclick="imc()" >
+            <input type="button" id="limp" class="dados" value="Limpar" onclick="limpa()" >
+        </div>
+       
+       
+    </div>
+  
+      <h3 id="more">Precisando de informação? leia a seguir sobre</h3>
+</body>
+
+</html>
