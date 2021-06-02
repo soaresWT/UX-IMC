@@ -1,0 +1,116 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#painei{
+    position: absolute;
+    width: 1182px;
+    height: 810px;
+    left: 60px;
+    top: 70px;
+    text-align: center;
+
+    background: linear-gradient(180deg, #506CFF -14.28%, #A2E3FF 116.83%);
+    box-shadow: 0px 12px 10px #E3E3E3;
+    border-radius: 25px;
+}
+img#mag{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    left: 371px;
+    top: 445px;
+
+}
+
+#calc{
+    position: absolute;
+    width: 565px;
+    height: 810px;
+    left: 1278px;
+    top: 70px;
+
+    background: linear-gradient(180deg, #506CFF -7.28%, #A2E3FF 109.67%);
+    box-shadow: 0px 12px 10px #E3E3E3;
+    border-radius: 25px;
+   
+    
+}
+#titulo{
+   font-weight: 700;
+   font-size: 55px;
+}
+.dados{
+    position: relative;
+    width: 497px;
+    height: 64px;
+    border: 0;
+    margin-top: 25%;
+    text-align: center;
+    margin-left: 25px;
+    color: #525252;
+    box-shadow: 0px 3px 2px #00b7ff;
+    outline: none;
+
+    background: #FFFFFF;
+    border-radius: 8px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+#limp{
+    margin-top: 35px;
+    border: solid 3px white;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+}
+
+.dados:hover{
+    transition: all 0.6s ease-out;
+    box-shadow: 0px 8px 4px #8afaf4;
+    background-color: #e7fffd;
+    transition: all 0.5s ease;
+    
+
+}
+@keyframes example {
+  
+}
+
+#altura{
+    margin-top: 35px;
+}
+#cal{
+    margin-top: 35px;
+    cursor: pointer;
+   
+}
+
+#cal:hover{
+    
+    background-color: #e7fffd;
+    transition: all 0.5s ease;
+    
+}
+p{
+   font-size: 15pt;
+   margin-left: 8px;
+   
+}
+#more{
+position: absolute;
+width: 1766px;
+height: 96px;
+left: 77px;
+bottom: -65px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #525252;
+
+}
